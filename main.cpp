@@ -5,8 +5,6 @@
 #include <string>
 #include <sstream>
 
-#include "button.hpp"
-
 #define WIDTH 1280
 #define HEIGHT 1024
 
@@ -102,7 +100,7 @@ int main()
     musicButton.setPosition(16, 16);
     musicButton.setSize(sf::Vector2f(32, 32));
     musicButton.setOutlineThickness(4);
-    musicButton.setFillColor(sf::Color::Transparent);
+    musicButton.setFillColor(sf::Color::Tra);
     musicButton.setOutlineColor(sf::Color::White);
 
     sf::Text textMusicButton;
